@@ -1,34 +1,56 @@
-# Laravel Fortify Example
-Laravel Authentication Scaffold using Laravel Fortify and Bootstrap.
+# Proyecto Final Ciberseguridad Agosto - Diciembre 2021
+Aplicación web para poner en práctica los estándares de seguridad para AW. Creado en Laravel, usando los framework Laravel Fortify and Bootstrap.
 
 
-## Video Tutorials
-1. [Authentication Scaffolding Using Laravel Fortify](https://www.youtube.com/watch?v=CLsyHP7x0N0)
-2. [Forget Password & User Profile Update with Laravel Fortify](https://www.youtube.com/watch?v=NTc5FXmnWYc)
-3. [Email Verification using Laravel Fortify](https://www.youtube.com/watch?v=X0ebWjcQ-uc)
-4. [Two Factor Authentication (2FA) with Laravel Fortify](https://www.youtube.com/watch?v=rDCqS277dVQ)
+## Cómo usar este repositorio
+Para poder usar este repositorio, necesitas tener instalado los siguientes programas:
+[ ] Composer, o tu manejador de paquetes de **PHP** preferido.
+[ ] Servido web local, recomendamos **XAMP**.
+[ ] Aplicación de simulación de servidor **SMTP**, recomendamos `Mailtrap`. 
 
 
-## How To Use This?
 
-Download or clone this repo
+1. Descarga o clona este repositorio.
 ```shell
-$ git clone https://github.com/qirolab/laravel-fortify-example.git
+$ git clone https://github.com/MartinNoboa/ProyectoCiberseguridad.git
 ```
 
-Install all dependency required by Laravel.
+2. Instala las dependencias requeridas por Laravel.
 ```shell
-$ composer install
+composer install
+```
+En el repositorio, esta el archivo [composer.json](composer.json), donde se encuentran todas las depencias. 
+
+3. Genera una `llave de aplicacion`.
+```
+# comando para crear una llave de aplicación en Laravel
+php artisan key:generate
+```
+4. Crea tu base de datos en el DBMS de tu preferencia. Nosotros usamos `XAMPP`, por lo que la creamos en **MySQL** en **PHPMyAdmin**.
+
+5. Copia el archivo `.env` del archivo base `.env.example`.
+```shell
+# Comando para copiar archivo .env 
+cp .env.example .env
 ```
 
-Generate app key, configure `.env` file and do migration.
+6. Configura el archivo `.env` desde tu editor de elección. Deberes configurar tu **base de datos** y tu servidor **SMTP**.
+
+7. Corre las migraciones incluidas
 ```shell
-# create copy of .env
-$ cp .env.example .env
-
-# create Laravel key
-$ php artisan key:generate
-
-# run migration
-$ php artisan migrate
+# Comando para correr migraciones
+php artisan migrate
 ```
+
+8. Corre la aplicación de Laravel. Si estás usando XAMPP, recuerda encender Apache y MySQL
+```shell
+# Comando para correr aplicación de Laravel
+php artisan serve
+```
+
+## Documentación
+Si gustas entrar a más detalle acerca de la lógica del programa y los protocolos de seguridad, esta el archivo [Documentación.pdf](composer.json) que continen la documentación formal del proyecto. 
+
+
+## Licencia
+Este repositorio cuenta con una licencia [MIT](https://opensource.org/licenses/MIT).
