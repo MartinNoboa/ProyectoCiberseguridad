@@ -4,7 +4,7 @@ Aplicación web para poner en práctica los estándares de seguridad para AW. Cr
 
 ## Cómo usar este repositorio
 Para poder usar este repositorio, necesitas tener instalado los siguientes programas:
-- [X]Repositorio con aplicación Laravel.
+- [x]Repositorio con aplicación Laravel.
 - [ ]Composer, o tu manejador de paquetes de **PHP** preferido.
 - [ ]Servido web local, recomendamos **XAMP**.
 - [ ]Aplicación de simulación de servidor **SMTP**, recomendamos `Mailtrap`. 
