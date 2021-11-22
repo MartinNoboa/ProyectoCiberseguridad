@@ -4,7 +4,6 @@ use App\Providers\RouteServiceProvider;
 use Laravel\Fortify\Features;
 
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Fortify Guard
@@ -68,7 +67,7 @@ return [
     | Fortify Routes Prefix / Subdomain
     |--------------------------------------------------------------------------
     |
-    | Here you may specify which prefix Fortify will assign to all the routes
+    | Here you may specify which prefix Fortify will assign to the all routes
     | that it registers with the application. If necessary, you may change
     | subdomain under which all of the Fortify routes will be available.
     |
@@ -103,8 +102,7 @@ return [
     */
 
     'limiters' => [
-        'login' => 'login',
-        'two-factor' => 'two-factor',
+        'login' => null,
     ],
 
     /*
@@ -134,12 +132,11 @@ return [
     'features' => [
         Features::registration(),
         Features::resetPasswords(),
-        // Features::emailVerification(),
+        Features::emailVerification(),
         Features::updateProfileInformation(),
         Features::updatePasswords(),
         Features::twoFactorAuthentication([
             'confirmPassword' => true,
         ]),
     ],
-
 ];
