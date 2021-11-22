@@ -1,10 +1,10 @@
-# Proyecto Final Ciberseguridad Agosto - Diciembre 2021
+# Proyecto Final Ciberseguridad [^1]
 Aplicación web para poner en práctica los estándares de seguridad para AW. Creado en Laravel, usando los framework Laravel Fortify and Bootstrap.
 
 
 ## Cómo usar este repositorio
 Para poder usar este repositorio, necesitas tener instalado los siguientes programas:
-- [x] Repositorio con aplicación Laravel.
+- [x] Repositorio con aplicación Laravel :tada:.
 - [ ] Composer, o tu manejador de paquetes de **PHP** preferido.
 - [ ] Servido web local, recomendamos **XAMP**.
 - [ ] Aplicación de simulación de servidor **SMTP**, recomendamos `Mailtrap`. 
@@ -55,3 +55,8 @@ Si gustas entrar a más detalle acerca de la lógica del programa y los protocol
 
 ## Licencia
 Este repositorio cuenta con una licencia [MIT](https://opensource.org/licenses/MIT).
+
+
+[^1]: Cuyos.
+  Agosto - Diciembre 2021.
+  Ciberseguridad  
