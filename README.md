@@ -1,4 +1,4 @@
-# Proyecto Final Ciberseguridad [^1]
+# Proyecto Final Ciberseguridad 
 Aplicación web para poner en práctica los estándares de seguridad para AW. Creado en Laravel, usando los framework Laravel Fortify and Bootstrap.
 
 
@@ -50,13 +50,8 @@ php artisan serve
 ```
 
 ## Documentación
-Si gustas entrar a más detalle acerca de la lógica del programa y los protocolos de seguridad, esta el archivo [Documentación.pdf](composer.json) que continen la documentación formal del proyecto. 
+Si gustas entrar a más detalle acerca de la lógica del programa y los protocolos de seguridad, esta el archivo [Documentación.pdf](documentacion.pdf) que continen la documentación formal del proyecto. 
 
 
 ## Licencia
 Este repositorio cuenta con una licencia [MIT](https://opensource.org/licenses/MIT).
-
-
-[^1]: Cuyos.
-  Agosto - Diciembre 2021.
-  Ciberseguridad  
