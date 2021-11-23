@@ -50,7 +50,13 @@ php artisan serve
 ```
 
 ## Documentación
-Si gustas entrar a más detalle acerca de la lógica del programa y los protocolos de seguridad, esta el archivo [Documentación.pdf](documentacion.pdf) que continen la documentación formal del proyecto. 
+Si gustas entrar a más detalle acerca de la lógica del programa y los protocolos de seguridad, esta el archivo [Documentación.pdf](entregables/documentacion.pdf) que continen la documentación formal del proyecto. 
+
+## Demo
+Si gustas ver la aplicación en funcionamiento, tenemos una [Demo](entregables/Demo2FA.mp4). 
+
+## Presentación final
+Puedes encontrar la presentación final [aquí](entregables/PresentacionFinal.pptx). 
 
 
 ## Licencia
