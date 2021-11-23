@@ -1,6 +1,14 @@
 # Proyecto Final Ciberseguridad 
 Aplicación web para poner en práctica los estándares de seguridad para AW. Creado en Laravel, usando los framework Laravel Fortify and Bootstrap.
 
+## Documentación
+Si gustas entrar a más detalle acerca de la lógica del programa y los protocolos de seguridad, esta el archivo [Documentación.pdf](entregables/documentacion.pdf) que continen la documentación formal del proyecto. 
+
+## Demo
+Si gustas ver la aplicación en funcionamiento, tenemos una [Demo](entregables/Demo2FA.mp4). 
+
+## Presentación final
+Puedes encontrar la presentación final [aquí](entregables/PresentacionFinal.pptx). 
 
 ## Cómo usar este repositorio
 Para poder usar este repositorio, necesitas tener instalado los siguientes programas:
@@ -49,14 +57,7 @@ php artisan migrate
 php artisan serve
 ```
 
-## Documentación
-Si gustas entrar a más detalle acerca de la lógica del programa y los protocolos de seguridad, esta el archivo [Documentación.pdf](entregables/documentacion.pdf) que continen la documentación formal del proyecto. 
 
-## Demo
-Si gustas ver la aplicación en funcionamiento, tenemos una [Demo](entregables/Demo2FA.mp4). 
-
-## Presentación final
-Puedes encontrar la presentación final [aquí](entregables/PresentacionFinal.pptx). 
 
 
 ## Licencia
